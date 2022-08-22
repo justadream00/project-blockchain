@@ -1,0 +1,92 @@
+.alert{
+    background: rgba(194, 236, 9, 0.808);
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin-left: 350px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 50px;
+    border-radius: 20px;
+}
+.inputbox{
+    position: relative;
+    width: 250px;
+    top: 20px;
+    left: 10px;
+}
+.inputbox input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    outline: none;
+    background: #082525;
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #fff;
+    font-size: 14px;
+    transition: 0.5s;
+
+}
+.inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    color: black;
+    pointer-events: none;
+    /* padding-left: 15px; */
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span{
+    color: #00dfc4;
+    transform: translateY(0px) translateY(-7px);
+    padding: 0 15px;
+    border-left: 1px solid #24cfbb;
+    letter-spacing: 0.2rem;
+    border-right: 1px solid #16b4a2;
+    background: #082525;
+    font-size: 14px;
+
+
+}
+
+.textt {
+  height: 400px;
+  width: 540px;
+  box-sizing: border-box;
+  resize: both;
+  padding: 16px;
+  border: none;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.637);
+  background: rgba(29, 245, 227, 0.705);
+  resize: none;
+  font-family: sans-serif;
+  resize: auto ;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow:
+    inset 0 -40px 40px rgba(0, 0, 0, 0.2),
+    inset 0 25px 10px rgba(0, 0, 0, 0.2),
+    0 5px 6px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Permanent Marker', cursive;
+  line-height: 1.7em;
+  font-size: 19px;
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+
+}
+
+.config i {
+    position: absolute;
+    left: 70px;
+    top: 540px;
+    padding: 9px 8px;
+    color: rgb(206, 209, 25);
+    transition: 0.3s;
+  }
+
+
