@@ -14,6 +14,6 @@ class danhmuc extends Model
     protected $fillable = [
         'name_danh_muc',
         'slug_danh_muc',
-        'id_danh_muc_cha',
+         'id_danh_muc_cha',
     ];
 }
